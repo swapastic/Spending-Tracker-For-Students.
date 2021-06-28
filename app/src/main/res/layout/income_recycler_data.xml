@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    android:elevation="5dp"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/date_txt_income"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 september 2020"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#DC3E106A"
+                android:textStyle="bold"
+
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/ammount_txt_income"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="60000"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+
+                />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/TYPE_txt_income"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#DC000000"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/note_txt_income"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TYPE_txt_income"
+                android:text="Note"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

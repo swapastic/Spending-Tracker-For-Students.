@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimgg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:gravity="center"
+
+        android:text="LOG IN"
+
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/email_login"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Email"
+        android:padding="10dp"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/Password_login"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Password"
+        android:padding="10dp"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittext_background1"
+
+        android:text="Log In"
+        android:textAppearance="?android:textAppearanceMedium"
+
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/forget_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="5dp"
+        android:text="Forget Password?"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/signup_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:padding="5dp"
+        android:text="Don't have account?sign up here"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>

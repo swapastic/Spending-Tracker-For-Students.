@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="5dp"
+    app:cardElevation="5dp"
+    android:layout_margin="5dp"
+
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="20 september 2020"
+                android:textColor="#DC3E106A"
+                android:id="@+id/date_txt_expence"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+
+                />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="60000"
+                android:maxLines="1"
+                android:textColor="#DCE41818"
+                android:id="@+id/ammount_txt_expence"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+
+                />
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="Type"
+                android:textColor="#DC000000"
+                android:id="@+id/TYPE_txt_expence"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="Note"
+                android:layout_below="@+id/TYPE_txt_expence"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/note_txt_expence"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+
+                />
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

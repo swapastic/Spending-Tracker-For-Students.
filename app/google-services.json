@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "435576122015",
+    "firebase_url": "https://spending-tracker-ddda3.firebaseio.com",
+    "project_id": "spending-tracker-ddda3",
+    "storage_bucket": "spending-tracker-ddda3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435576122015:android:4de649dd0aeb36064d90aa",
+        "android_client_info": {
+          "package_name": "com.example.spendingtrackerforstudents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435576122015-8h29j0r54cqetg55sidlop91ump9o1k4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spendingtrackerforstudents",
+            "certificate_hash": "0795991f4773312b8facdad7865de189bf89f6d9"
+          }
+        },
+        {
+          "client_id": "435576122015-1j62fr5gfn9ai53d21v0n3e3e6g1rrae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpX5slRPMTEVbnSebXXqt8tfwcFGePBhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435576122015-1j62fr5gfn9ai53d21v0n3e3e6g1rrae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

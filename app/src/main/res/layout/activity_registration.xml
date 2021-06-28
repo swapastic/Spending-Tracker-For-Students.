@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backgroundimgg"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="REGISTRATION"
+      android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+      android:textColor="@color/colorAccent" />
+
+      <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="Email"
+
+          android:textColorHint="#B5000000"
+        android:id="@+id/email_reg"/>
+
+      <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:background="@drawable/edittext_background"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="Password"
+          android:textColorHint="#B5020000"
+        android:id="@+id/Password_reg"/>
+
+  <Button
+      android:id="@+id/btn_REG"
+      android:layout_width="146dp"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:background="@drawable/edittext_background1"
+      android:text="Register"
+      android:textAppearance="?android:textAppearanceMedium"
+
+
+      android:textColor="#FFFFFF" />
+
+  <TextView
+      android:id="@+id/signinhere_reg"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:background="@drawable/back"
+      android:padding="10dp"
+      android:text="Already have an account?sign in here."
+
+      android:textColor="#FFFFFF" />
+
+
+
+</LinearLayout>
