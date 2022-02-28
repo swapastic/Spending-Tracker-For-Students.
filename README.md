@@ -1,6 +1,6 @@
 # Expense-Tracker-For-Students.
 
-python project
+Android project - Developed using android studio with help of java , xml , firebase for database purpose .
 
 This source code is free to use for any one interested out there.
 
